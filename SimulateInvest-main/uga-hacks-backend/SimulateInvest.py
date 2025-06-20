@@ -93,7 +93,7 @@ def get_info(ticker_symb, time_period = "1mo", risk = "Low"):
     elif(risk == "High"):
         risk_free_rate = 0.5
     else:
-        risk_free_rate = 0.05 #0.05 for small, 0.1 for medium risk, 0.5 high risk
+        risk_free_rate = 0.05 #0.05 for small, 0.1 for medium risk, 0.5 for high risk, it depends
 
     results = pd.DataFrame()
 
